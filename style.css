@@ -1,0 +1,78 @@
+* {
+  font-family: arial;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.texto {
+  justify-content: end;
+}
+
+.botao {
+  background-color: #e21;
+  padding: 10px 30px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.propaganda {
+  font-size: 50px;
+  justify-content: end;
+  color: #c6c6c6;
+}
+
+.icones {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.icones p {
+  grid-column: 2;
+  margin-top: 0;
+  justify-content: center;
+  text-align: start;
+}
+.icones h3 {
+  align-content: flex-start;
+  margin-top: 0;
+  margin-left: 5px;
+}
+.icone {
+  grid-column: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  align-content: end;
+}
